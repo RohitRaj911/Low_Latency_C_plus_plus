@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/SimpleTradeEngine.dir/main.cpp.o CMakeFiles/SimpleTradeEngine.dir/src/Order.cpp.o CMakeFiles/SimpleTradeEngine.dir/src/Trade.cpp.o  -o SimpleTradeEngine 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_2/SimpleTradeEngine/include/Order.hpp
+bits/stdc++.h
+-
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_2/SimpleTradeEngine/include/Trade.hpp
+bits/stdc++.h
+-
+Order.hpp
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_2/SimpleTradeEngine/include/Order.hpp
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_2/SimpleTradeEngine/main.cpp
+bits/stdc++.h
+-
+include/Order.hpp
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_2/SimpleTradeEngine/include/Order.hpp
+include/Trade.hpp
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_2/SimpleTradeEngine/include/Trade.hpp
+
