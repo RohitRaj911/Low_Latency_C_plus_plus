@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo _Server_using_Select/include/Client.h
+string
+-
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo _Server_using_Select/include/Utils.h
+string
+-
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo _Server_using_Select/src/Client.cpp
+../include/Client.h
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo _Server_using_Select/include/Client.h
+../include/Utils.h
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo _Server_using_Select/include/Utils.h
+iostream
+-
+unistd.h
+-
+arpa/inet.h
+-
+cstring
+-
+

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/include/Client.h
+string
+-
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/include/Utils.h
+string
+-
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/src/Client.cpp
+../include/Client.h
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/include/Client.h
+../include/Utils.h
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/include/Utils.h
+iostream
+-
+unistd.h
+-
+arpa/inet.h
+-
+cstring
+-
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/src/Utils.cpp
+../include/Utils.h
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/include/Utils.h
+iostream
+-
+cstdio
+-
+cstdlib
+-
+
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/src/main_client.cpp
+../include/Client.h
+/media/rohit/New Volume/low_latency_C_plus_plus/Week_4/Mini_Project/Multi_client_TCP_Echo_Server_using_Epoll/include/Client.h
+
